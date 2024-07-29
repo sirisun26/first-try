@@ -1,0 +1,9 @@
+export const MEASUREMENT_ICON_PATH = require('../../assets/icons/measurement.png');
+export const GOVERNANCE_ICON_PATH = require('../../assets/icons/governance.png');
+export const CULTURE_ICON_PATH = require('../../assets/icons/culture.png');
+export const CUSTOMER_ICON_PATH = require('../../assets/icons/customer.png');
+export const SERVICE_DESIGN_ICON_PATH = require('../../assets/icons/serviceDesign.png');
+export const MEASUREMENT_CONNECTER_ICON_PATH = require('../../assets/icons/measurementConnecter.png');
+export const GOVERNANCE_CONNECTER_ICON_PATH = require('../../assets/icons/governanceConnecter.png');
+export const CULTURE_CONNECTER_ICON_PATH = require('../../assets/icons/cultureConnecter.png');
+export const CUSTOMER_CONNECTER_ICON_PATH = require('../../assets/icons/customerConnecter.png');

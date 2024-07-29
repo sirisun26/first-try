@@ -1,0 +1,19 @@
+@import "../../sassStyles/variables";
+@import "../../sassStyles/mixins";
+
+.appContainer {
+  width: 100%;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+
+  @include mdMinBreakPoint {
+    padding: 0 $space-150;
+  }
+  @include xlMinBreakPoint {
+    max-width: $container-max-width-xl;
+  }
+  @include xxlMinBreakPoint {
+    max-width: $container-max-width-xxl;
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.daf36b2e.css",
+    "main.js": "/static/js/main.bb4961a6.js",
+    "static/js/213.bb9133aa.chunk.js": "/static/js/213.bb9133aa.chunk.js",
+    "static/js/455.9248710b.chunk.js": "/static/js/455.9248710b.chunk.js",
+    "static/js/453.5565870f.chunk.js": "/static/js/453.5565870f.chunk.js",
+    "static/media/landing-cover.png": "/static/media/landing-cover.14cd3cd135af562cb451.png",
+    "static/media/customerConnecter.png": "/static/media/customerConnecter.578d91170982220e6f50.png",
+    "static/media/governanceConnecter.png": "/static/media/governanceConnecter.51f805c9db3c12eae4c7.png",
+    "static/media/measurementConnecter.png": "/static/media/measurementConnecter.fe93faa65e011cd4f50d.png",
+    "static/media/cultureConnecter.png": "/static/media/cultureConnecter.8c08042aec8225ad3072.png",
+    "static/media/measurement.png": "/static/media/measurement.fff103fc2fbe87e010a3.png",
+    "static/media/logo-rei.svg": "/static/media/logo-rei.6e5ddbb69080267ceffb2f61745403d7.svg",
+    "index.html": "/index.html",
+    "main.daf36b2e.css.map": "/static/css/main.daf36b2e.css.map",
+    "main.bb4961a6.js.map": "/static/js/main.bb4961a6.js.map",
+    "213.bb9133aa.chunk.js.map": "/static/js/213.bb9133aa.chunk.js.map",
+    "455.9248710b.chunk.js.map": "/static/js/455.9248710b.chunk.js.map",
+    "453.5565870f.chunk.js.map": "/static/js/453.5565870f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.daf36b2e.css",
+    "static/js/main.bb4961a6.js"
+  ]
+}

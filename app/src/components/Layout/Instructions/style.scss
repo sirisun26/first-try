@@ -1,0 +1,19 @@
+.connecter{
+    width: 35%;
+    top:20%;
+    z-index: 99;
+}
+
+.instruction-content {
+    max-width: 1000px;
+}
+
+.instruction-content .levels > div{
+    max-width: 19%;
+    width: 19%;
+}
+
+
+.instruction-content .levels p , .instruction-content .levels h6 {
+    font-size: 11px;
+}

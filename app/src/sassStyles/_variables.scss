@@ -1,0 +1,326 @@
+// SCREEN SIZES
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+$screen-xxl: 1300px;
+$screen-full: 1400px;
+
+//CONTAINER SIZES
+$container-max-width-sm: 540px;
+$container-max-width-md: 720px;
+$container-max-width-lg: 960px;
+$container-max-width-xl: 1140px;
+$container-max-width-xxl: 1320px;
+
+/* BLACK WHITE  */
+$color-black: #000000;
+$color-white: #ffffff;
+
+//BRAND COLORS
+//BRAND PURPLE
+$color-brand-purple-5: #f3f3f9;
+$color-brand-purple-10: #e6e4ef;
+$color-brand-purple-20: #d9d6e8;
+$color-brand-purple-30: #ccc7e1;
+$color-brand-purple-40: #bfb8d7;
+$color-brand-purple-50: #b3aad1;
+$color-brand-purple-60: #a49cc8;
+$color-brand-purple-70: #968dc2;
+$color-brand-purple-80: #8b7fb9;
+$color-brand-purple-90: #7a6db2;
+
+//BRAND GREEN
+$color-brand-green-5: #e8f3f3;
+$color-brand-green-10: #d2e8e8;
+$color-brand-green-20: #bbdcdc;
+$color-brand-green-30: #a5d1d1;
+$color-brand-green-40: #8ec5c5;
+$color-brand-green-50: #78baba;
+$color-brand-green-60: #62afaf;
+$color-brand-green-70: #4ba3a3;
+$color-brand-green-80: #359898;
+$color-brand-green-90: #1e8c8c;
+
+//BRAND SECONDARY BLUE
+$color-brand-secondary-blue-5: #ecf9fc;
+$color-brand-secondary-blue-10: #d9f2f9;
+$color-brand-secondary-blue-20: #c6ecf6;
+$color-brand-secondary-blue-30: #b3e6f3;
+$color-brand-secondary-blue-40: #a0dff0;
+$color-brand-secondary-blue-50: #8ed9ee;
+$color-brand-secondary-blue-60: #7bd3eb;
+$color-brand-secondary-blue-70: #68cde8;
+$color-brand-secondary-blue-80: #55c6e5;
+$color-brand-secondary-blue-90: #42c0e2;
+
+//BRAND GRAY
+$color-brand-gray-5: #eaeaea;
+$color-brand-gray-10: #d8d8d8;
+$color-brand-gray-20: #c6c6c6;
+$color-brand-gray-30: #b4b4b4;
+$color-brand-gray-40: #a2a2a2;
+$color-brand-gray-50: #919191;
+$color-brand-gray-60: #7f7f7f;
+$color-brand-gray-70: #6d6d6d;
+$color-brand-gray-80: #5b5b5b;
+$color-brand-gray-90: #494949;
+$color-brand-lt-gray: #f5f8fa;
+
+//BRAND RED
+$color-brand-red-5: #ffeceb;
+$color-brand-red-10: #ffd9d8;
+$color-brand-red-20: #fec6c4;
+$color-brand-red-30: #feb4b1;
+$color-brand-red-40: #fea19d;
+$color-brand-red-50: #fe8e8a;
+$color-brand-red-60: #fe7c77;
+$color-brand-red-70: #fd6963;
+$color-brand-red-80: #fd5650;
+$color-brand-red-90: #fd433c;
+
+//BRAND BLUE
+$color-brand-blue-5: #e5e9ed;
+$color-brand-blue-10: #ccd3db;
+$color-brand-blue-20: #b2bdc8;
+$color-brand-blue-30: #99a7b7;
+$color-brand-blue-40: #7f91a4;
+$color-brand-blue-50: #667b92;
+$color-brand-blue-60: #4d6581;
+$color-brand-blue-70: #334f6e;
+$color-brand-blue-80: #1a395c;
+$color-brand-blue-90: #00234a;
+
+//BRAND YELLOW
+$color-brand-yellow-10: #fff3d8;
+$color-brand-yellow-20: #ffe7b1;
+$color-brand-yellow-30: #ffdc8b;
+$color-brand-yellow-40: #ffd064;
+
+//SECONDARY COLORS
+//NEUTRALS
+$color-neutral-gray-100: #f5f6f7;
+$color-neutral-gray-200: #f0f0f0;
+$color-neutral-gray-300: #e1e1e1;
+$color-neutral-gray-400: #d2d2d2;
+$color-neutral-gray-500: #b6b6b6;
+$color-neutral-gray-600: #7e7e7e;
+$color-neutral-gray-700: #6e6e6e;
+$color-neutral-gray-800: #636363;
+$color-neutral-gray-900: #0e0e0e;
+
+$color-neutral-slate-100: #ebf1f6;
+$color-neutral-slate-200: #c5d4e3;
+$color-neutral-slate-300: #a4b8cd;
+$color-neutral-slate-400: #839db4;
+$color-neutral-slate-500: #40586d;
+$color-neutral-slate-600: #293b4d;
+$color-neutral-slate-700: #1d2c3b;
+$color-neutral-slate-800: #141d28;
+$color-neutral-slate-900: #0a0e14;
+
+//SECONDARY RED
+$color-secondary-red-100: #ffecee;
+$color-secondary-red-200: #ffc3c9;
+$color-secondary-red-300: #ff99a1;
+$color-secondary-red-400: #fe6873;
+$color-secondary-red-500: #e4424d;
+$color-secondary-red-600: #d0353f;
+$color-secondary-red-700: #bb2a33;
+$color-secondary-red-800: #8c161f;
+$color-secondary-red-900: #590a0f;
+
+//SECONDARY ORANGE
+$color-secondary-orange-100: #ffeed2;
+$color-secondary-orange-200: #fec97a;
+$color-secondary-orange-300: #f8a433;
+$color-secondary-orange-400: #e67f01;
+$color-secondary-orange-500: #c96100;
+$color-secondary-orange-600: #b85200;
+$color-secondary-orange-700: #a64600;
+$color-secondary-orange-800: #7d2e00;
+$color-secondary-orange-900: #4f1a00;
+
+//SECONDARY YELLOW
+$color-secondary-yellow-100: #feefcb;
+$color-secondary-yellow-200: #f5cd6f;
+$color-secondary-yellow-300: #e6ac28;
+$color-secondary-yellow-400: #ce8d00;
+$color-secondary-yellow-500: #b36f00;
+$color-secondary-yellow-600: #a36100;
+$color-secondary-yellow-700: #925400;
+$color-secondary-yellow-800: #6d3a00;
+$color-secondary-yellow-900: #442200;
+
+//SECONDARY GREEN
+$color-secondary-green-100: #e9f5ce;
+$color-secondary-green-200: #c0dd78;
+$color-secondary-green-300: #9bc438;
+$color-secondary-green-400: #7aa809;
+$color-secondary-green-500: #5d8c00;
+$color-secondary-green-600: #4f7d00;
+$color-secondary-green-700: #436f00;
+$color-secondary-green-800: #2c5000;
+$color-secondary-green-900: #193100;
+
+//SECONDARY BLUE
+$color-secondary-blue-100: #d9f5fd;
+$color-secondary-blue-200: #94dcf7;
+$color-secondary-blue-300: #5cc1ee;
+$color-secondary-blue-400: #31a2e3;
+$color-secondary-blue-500: #1282d6;
+$color-secondary-blue-600: #0672cb;
+$color-secondary-blue-700: #0063b8;
+$color-secondary-blue-800: #00468b;
+$color-secondary-blue-900: #002a58;
+
+//SECONDARY PURPLE
+$color-secondary-purple-100: #fbebff;
+$color-secondary-purple-200: #ecc4ff;
+$color-secondary-purple-300: #db9eff;
+$color-secondary-purple-400: #c47af4;
+$color-secondary-purple-500: #a95adc;
+$color-secondary-purple-600: #994ccc;
+$color-secondary-purple-700: #8a3fba;
+$color-secondary-purple-800: #66278f;
+$color-secondary-purple-900: #40155c;
+
+//ALPHA COLORS
+$alpha-white-5: #ffffff0d;
+$alpha-white-10: #ffffff1a;
+$alpha-white-20: #ffffff33;
+$alpha-white-30: #ffffff4d;
+$alpha-white-40: #ffffff66;
+$alpha-white-50: #ffffff80;
+$alpha-white-60: #ffffff99;
+$alpha-white-70: #ffffffb3;
+$alpha-white-80: #ffffffcc;
+$alpha-white-90: #ffffffe6;
+$alpha-white-100: #ffffffff;
+
+$alpha-black-5: #0000000d;
+$alpha-black-10: #0000001a;
+$alpha-black-20: #00000033;
+$alpha-black-30: #0000004d;
+$alpha-black-40: #00000066;
+$alpha-black-50: #00000080;
+$alpha-black-60: #00000099;
+$alpha-black-70: #000000b3;
+$alpha-black-80: #000000cc;
+$alpha-black-90: #000000e6;
+$alpha-black-100: #000000ff;
+
+//LETTER SPACING
+$letter-spacing-normal: 0px;
+$letter-spacing-dense: -0.2px;
+$letter-spacing-denser: -0.3px;
+$letter-spacing-densest: -0.88px;
+
+//SPACING
+$space-0: 0px;
+$space-025: 2px;
+$space-050: 4px;
+$space-075: 6px;
+$space-100: 8px;
+$space-125: 10px;
+$space-150: 12px;
+$space-200: 16px;
+$space-250: 20px;
+$space-300: 24px;
+$space-400: 32px;
+$space-500: 40px;
+$space-600: 48px;
+$space-700: 56px;
+$space-800: 64px;
+$space-900: 72px;
+
+//FONT SIZE
+$font-size-text-3xs: 10px;
+$font-size-text-2xs: 12px;
+$font-size-text-xs: 13px;
+$font-size-text-sm: 14px;
+$font-size-text-md: 15px;
+$font-size-text-base: 16px;
+$font-size-text-lg: 18px;
+$font-size-text-xl: 20px;
+$font-size-text-2xl: 22px;
+$font-size-text-3xl: 24px;
+$font-size-text-4xl: 26px;
+$font-size-text-5xl: 28px;
+$font-size-text-6xl: 32px;
+$font-size-text-7xl: 40px;
+$font-size-text-8xl: 44px;
+$font-size-text-9xl: 56px;
+$font-size-text-10xl: 72px;
+$font-size-text-11xl: 96px;
+
+//FONT-WEIGHT
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-extrabold: 800;
+
+//BORDER RADIUS
+$border-radius-none: 0px;
+$border-radius-2xs: 2px;
+$border-radius-xs: 4px;
+$border-radius-sm: 6px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+$border-radius-xl: 16px;
+$border-radius-2xl: 20px;
+$border-radius-3xl: 30px;
+$border-radius-full: 9999px;
+
+//BORDER WIDTH
+$border-width-border: 1px;
+$border-width-border-2: 2px;
+$border-width-border-4: 4px;
+$border-width-border-8: 8px;
+
+//ICON SIZES
+$icon-xs: 16px;
+$icon-md: 24px;
+$icon-sm: 18px;
+$icon-lg: 32px;
+
+//UNITS
+$unit-0: 0px;
+$unit-1: 1px;
+$unit-2: 2px;
+$unit-4: 4px;
+$unit-6: 6px;
+$unit-8: 8px;
+$unit-10: 10px;
+$unit-12: 12px;
+$unit-14: 14px;
+$unit-16: 16px;
+$unit-18: 18px;
+$unit-20: 20px;
+$unit-24: 24px;
+$unit-28: 28px;
+$unit-32: 32px;
+$unit-36: 36px;
+$unit-40: 40px;
+$unit-44: 44px;
+$unit-48: 48px;
+$unit-56: 56px;
+$unit-64: 64px;
+$unit-72: 72px;
+$unit-80: 80px;
+$unit-88: 88px;
+$unit-96: 96px;
+$unit-112: 112px;
+$unit-128: 128px;
+$unit-144: 144px;
+$unit-160: 160px;
+$unit-176: 176px;
+$unit-192: 192px;
+$unit-208: 208px;
+$unit-224: 224px;
+$unit-240: 240px;
+$unit-256: 256px;
+$unit-288: 288px;
+$unit-320: 320px;
+$unit-384: 384px;

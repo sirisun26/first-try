@@ -1,5 +1,6 @@
 export const routePaths = {
     root: "/",
-    questions: "/questions"
+    questions: "/questions",
     report: "/report"
 }
+

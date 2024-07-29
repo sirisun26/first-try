@@ -1,26 +1,26 @@
-import Home from "./pages/Home";
-import Questions from "./pages/Questions";
+// import App from "./App"; //TODO
+// import Questions from "./pages/Questions";
+// import ReportPage from "./pages/Report";
 
 
-import {
-    createBrowserRouter
-  } from "react-router-dom";
+// import {
+//     createBrowserRouter
+//   } from "react-router-dom";
 
-import { routePaths } from "./index.const";
+// import { routePaths } from "./index.const";
 
 
+// const router = createBrowserRouter([
+//     {
+//       path: routePaths.root,
+//       element: <App />,
+//     }, {
+//         path: routePaths.questionss,
+//         element: <Questionss />
+//     }, {
+//         path: routePaths.report,
+//         element: <ReportPage />
+//     }
+//   ]);
 
-const router = createBrowserRouter([
-    {
-      path: routePaths.root,
-      element: <Home />,
-    }, {
-        path: routePaths.questions,
-        element: <Questions />
-    }, {
-        path: routePaths.report,
-        element: <Report />
-    }
-  ]);
-
-  export default router;
+//   export default router;

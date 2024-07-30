@@ -1,0 +1,37 @@
+.connecter{
+    width: 35%;
+    top:35%;
+    z-index: 99;
+}
+
+.instruction-content {
+    max-width: 1000px;
+}
+
+
+@media (max-width:600px) {
+    .instruction-content .levels img {
+        max-width: 120px !important;
+    }
+}
+
+
+.instruction-content .levels > div{
+    max-width: 19%;
+    width: 19%;
+}
+.instruction-content .levels .level-name{
+font-weight: 400;
+font-size: 9px;
+line-height: 16px;
+}
+.instruction-content .levels .level-description{
+font-weight: 400;
+font-size: 8px;
+line-height: 13px;
+}
+
+
+.instruction-content .levels p , .instruction-content .levels h6 {
+    font-size: 11px;
+}

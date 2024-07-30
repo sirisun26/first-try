@@ -1,0 +1,24 @@
+@import "../../../sassStyles/mixins";
+@import "../../../sassStyles/variables";
+
+.landingWrapper {
+  background-color: $color-white;
+  padding: $space-400;
+  border-radius: $border-radius-lg;
+  box-shadow: 0px 32px 64px 0px $alpha-black-5;
+  display: flex;
+  flex-flow: column wrap;
+  gap: $unit-64;
+  margin-top: $space-0;
+
+  @include mdMinBreakPoint {
+    padding: $space-500;
+    flex-flow: row wrap;
+    gap: $unit-64;
+    margin-top: $space-200;
+  }
+  @include lgMinBreakPoint {
+    gap: $unit-128;
+    margin-top: $space-300;
+  }
+}

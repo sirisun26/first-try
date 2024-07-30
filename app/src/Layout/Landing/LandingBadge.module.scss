@@ -1,0 +1,23 @@
+@import "../../../sassStyles/variables";
+
+.landingBadge {
+  background-color: $color-white;
+  border-radius: $border-radius-none $border-radius-none $border-radius-none
+    $border-radius-xl;
+  display: flex;
+  padding: 0px 0px 8px 8px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  &__badge {
+    background-color: $color-secondary-purple-800;
+    padding: $space-150;
+    color: $color-white;
+    border-radius: $border-radius-none $border-radius-lg;
+    font-size: $font-size-text-sm;
+    font-weight: $font-weight-semibold;
+  }
+}

@@ -1,6 +1,6 @@
 .connecter{
     width: 35%;
-    top:20%;
+    top:35%;
     z-index: 99;
 }
 
@@ -8,9 +8,27 @@
     max-width: 1000px;
 }
 
+
+@media (max-width:600px) {
+    .instruction-content .levels img {
+        max-width: 120px !important;
+    }
+}
+
+
 .instruction-content .levels > div{
     max-width: 19%;
     width: 19%;
+}
+.instruction-content .levels .level-name{
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+}
+.instruction-content .levels .level-description{
+font-weight: 400;
+font-size: 8px;
+line-height: 20px;
 }
 
 

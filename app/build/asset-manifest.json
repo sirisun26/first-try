@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.daf36b2e.css",
-    "main.js": "/static/js/main.bb4961a6.js",
+    "main.css": "/static/css/main.d233aaf4.css",
+    "main.js": "/static/js/main.075159c1.js",
     "static/js/213.bb9133aa.chunk.js": "/static/js/213.bb9133aa.chunk.js",
     "static/js/455.9248710b.chunk.js": "/static/js/455.9248710b.chunk.js",
     "static/js/453.5565870f.chunk.js": "/static/js/453.5565870f.chunk.js",
@@ -13,14 +13,14 @@
     "static/media/measurement.png": "/static/media/measurement.fff103fc2fbe87e010a3.png",
     "static/media/logo-rei.svg": "/static/media/logo-rei.6e5ddbb69080267ceffb2f61745403d7.svg",
     "index.html": "/index.html",
-    "main.daf36b2e.css.map": "/static/css/main.daf36b2e.css.map",
-    "main.bb4961a6.js.map": "/static/js/main.bb4961a6.js.map",
+    "main.d233aaf4.css.map": "/static/css/main.d233aaf4.css.map",
+    "main.075159c1.js.map": "/static/js/main.075159c1.js.map",
     "213.bb9133aa.chunk.js.map": "/static/js/213.bb9133aa.chunk.js.map",
     "455.9248710b.chunk.js.map": "/static/js/455.9248710b.chunk.js.map",
     "453.5565870f.chunk.js.map": "/static/js/453.5565870f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.daf36b2e.css",
-    "static/js/main.bb4961a6.js"
+    "static/css/main.d233aaf4.css",
+    "static/js/main.075159c1.js"
   ]
 }

@@ -22,7 +22,7 @@ const LandingDetails = (props) => {
         <div className={styles.details__copy}>{props.copy}</div>
         <div className={styles.details__buttons}>
           <Link to={props.btnLink}>
-            <Button variant="primary">{props.btnText}</Button>
+            <Button className="next-question-btn" variant="primary">{props.btnText}</Button>
           </Link>
         </div>
       </div>

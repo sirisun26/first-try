@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
     questions: [
-        {
+        { 
             question: 'We have established Customer Experience Success Metrics in collaboration with cross-functional project stakeholders (e.g. representatives from Business Analytics, Development, and Content).',
             selectedOption: null,
             category: 'measurement',
@@ -10,7 +10,7 @@ const initialState = {
 
         },
         {
-            question: 'We have established a clear hierarchy of customer metrics to guide operational, design, and management decisions.',
+            question: 'We have a clear system of customer metrics to help with operational, design, and management decisions.',
             selectedOption: null,
             category: 'measurement',
             type:'type1'
@@ -40,13 +40,13 @@ const initialState = {
             type:'type1'
         },
         {
-            question: 'How often do you report on CX initiatives, measurement, and design during seasonal team meetings (e.g. daily or weekly scrum) to ensure alignment with business goals and cross-functional strategy? ',
+            question: 'How often do you report on CX initiatives, measurement, and design during seasonal team meetings (e.g. daily or weekly scrum) to ensure alignment with business goals and cross-functional strategy?',
             selectedOption: null,
             category: 'governanceStrategy',
             type:'type2'
         },
         {
-            question: 'Significant project decisions require CX activities and documentation as part of the review and approval process.',
+            question: 'Significant project decisions require CX activities and documentation as part of the review and approval process on our team (e.g. mockups, wireframes, etc)',
             selectedOption: null,
             category: 'governanceStrategy',
             type:'type1'
@@ -64,13 +64,13 @@ const initialState = {
             type:'type1'
         },
         {
-            question: 'We have established a process to provide CX training for all project staff in which they are briefed on who the customers of the project are and what our CX strategy is.',
+            question: 'We have established a process to provide CX training for all project staff in which they are briefed on who the project`s customers are and what our CX strategy is.',
             selectedOption: null,
             category: 'cultureAndOrganization',
             type:'type1'
         },
         {
-            question: 'We have hired dedicated staff to support the agency’s overall CX strategy and screened staff for the skills necessary to support the specific project in which they are placed. ',
+            question: 'We have hired dedicated staff to support the REI’s overall CX strategy and screened staff for the skills necessary to support the specific project in which they are placed. ',
             selectedOption: null,
             category: 'cultureAndOrganization',
             type:'type1'
@@ -82,13 +82,13 @@ const initialState = {
             type:'type2'
         },
         {
-            question: 'We have established a process to provide time and encourage team members to attend agency-wide CX training (e.g. brown bags, community of practice meetings, etc.)',
+            question: 'We have established a process to provide time and encourage team members to attend company-wide CX training (e.g. brown bags, community of practice meetings, etc.)',
             selectedOption: null,
             category: 'cultureAndOrganization',
             type:'type1'
         },
         {
-            question: 'How often do you report on project specific CX success stories and metrics for use in the corporate growth initiatives of REI?',
+            question: 'How often do you report on project specific CX success stories and metrics for use in REI`s corporate growth initiatives?',
             selectedOption: null,
             category: 'cultureAndOrganization',
             type:'type2'
@@ -112,19 +112,19 @@ const initialState = {
             type:'type1'
         },
         {
-            question: 'We have established a process to review and integrate user feedback received from self-reported data streams (e.g. satisfaction surveys, helpdesk tickets, etc.)',
+            question: 'How often does your project review and integrate user feedback received from self-reported data streams (e.g. satisfaction surveys, helpdesk tickets, etc.)?',
             selectedOption: null,
             category: 'customerUnderstanding',
             type:'type2'
         },
         {
-            question: 'We have established clear criteria with which to prioritize user pain points and process bottlenecks and integrate them into the project backlog. ',
+            question: 'We have established clear criteria to prioritize user pain points, process bottlenecks, and integrate them into the project backlog.',
             selectedOption: null,
             category: 'customerUnderstanding',
             type:'type1'
         },
         {
-            question: 'We have established processes to test all products under the purview of the project with real users.',
+            question: 'How often do you test all products under the purview of the project with real users?',
             selectedOption: null,
             category: 'serviceDesignAndImprovement',
             type:'type2'
@@ -136,7 +136,7 @@ const initialState = {
             type:'type1'
         },
         {
-            question: 'We have established a process to communicate updates to existing products and new features to stakeholders and users.',
+            question: 'How often does your team communicate updates to existing products and new features to stakeholders and users?',
             selectedOption: null,
             category: 'serviceDesignAndImprovement',
             type:'type2'
@@ -148,7 +148,7 @@ const initialState = {
             type:'type1'
         },
         {
-            question: 'We have established a mechanism to refine our project objectives and product backlog in accordance with feedback from CX measurement and metrics reports.  ',
+            question: 'We have established a mechanism to refine our project objectives and product backlog in accordance with feedback from CX measurement and metrics reports.',
             selectedOption: null,
             category: 'serviceDesignAndImprovement',
             type:'type1'

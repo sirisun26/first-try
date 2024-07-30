@@ -12,7 +12,7 @@ function Home() {
         <Landing
             logo={Logo}
             logoAlt="REI"
-            subtitle="Welcome, Product Managers!"
+            subtitle="Welcome, Project Managers!"
             title="CX Maturity Review"
             copy={<LandingPageDescription />}
             btnText="Take the CX maturity assessment"

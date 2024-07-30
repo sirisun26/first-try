@@ -65,6 +65,7 @@ function QuestionsLayout() {
 
                 <h3 className="question-text">{assessment.questions[currentQuestion - 1].question}</h3>
                 <hr className='shadow-lg' />
+                
                 <div className="d-flex justify-content-between">
                     {optionItems.map((option, optionIndex) => (
                         <div

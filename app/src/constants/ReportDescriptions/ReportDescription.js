@@ -3,7 +3,7 @@ export const ReportDescriptions = {
     overallScore: [
         {
             name: "Reactive",
-            description: "The project is in the initial CX maturity. Fundamental elements of customer experience are either nonexistent or extremely underdeveloped"
+            description: "The project is in the initial of CX maturity. Fundamental elements of customer experience are either nonexistent or extremely underdeveloped"
         },
          {
             name: "Tactical",

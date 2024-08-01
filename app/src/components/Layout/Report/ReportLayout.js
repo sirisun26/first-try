@@ -110,7 +110,7 @@ function ReportLayout() {
                   <small>LEVEL</small>
                   <h3 className='fs-2 fw-bold' >5</h3>
                 </div>
-                <div className={`${Math.max(0, parseInt(Math.round(overallAverage))) === 5 ? 'level-name  text-white' : ''} text-end col-2 justify-content-center align-items-center d-flex py-2 pe-2 `} >
+                <div className={` ${Math.max(0, parseInt(Math.round(overallAverage))) === 5 ? 'level-name  text-white' : ''} text-end col-2 justify-content-center align-items-center d-flex py-2 pe-2 `} >
                   <small className='fw-bold' > Customer-Centric </small>
                 </div>
                 <div className='level-description py-2 px-3' >
@@ -119,7 +119,7 @@ function ReportLayout() {
               </div>
               {/* level4 */}
               <div className='level4  d-flex my-3 ' >
-                <div className={` ${Math.max(0, parseInt(Math.round(overallAverage))) === 4 ? 'level4' : ''}   col-1 text-center p-2`} >
+                <div className={` ${Math.max(0, parseInt(Math.round(overallAverage))) === 4 ? 'level-number text-white' : ''}   col-1 text-center p-2`} >
                   <small>LEVEL</small>
                   <h3 className='fs-2 fw-bold' >4</h3>
                 </div>
@@ -288,7 +288,3 @@ function ReportLayout() {
 }
 
 export default ReportLayout;
-
-
-
-

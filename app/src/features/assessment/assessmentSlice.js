@@ -1,6 +1,11 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
+    user:{
+        email:'',
+        name:'',
+        role:''
+    },
     questions: [
         { 
             question: 'We have established Customer Experience Success Metrics in collaboration with cross-functional project stakeholders (e.g. representatives from Business Analytics, Development, and Content).',
@@ -170,11 +175,14 @@ export const assessmentSlice = createSlice({
         updateStatus: (state, action) => {
             state.isAssessmentTaken = action.payload;
         },
+        updateUser:(state,action)=>{
+            state.user= action.payload;
+        }
     },
 });
 
 
 
-export const { updateQuestions, updateStatus } = assessmentSlice.actions;
+export const { updateQuestions, updateStatus,updateUser } = assessmentSlice.actions;
 
 export default assessmentSlice.reducer;

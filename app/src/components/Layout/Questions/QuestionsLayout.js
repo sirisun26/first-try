@@ -24,10 +24,9 @@ function QuestionsLayout() {
             setSelectedOption(assessment.questions[currentQuestion - 1]?.selectedOption || null);
             setComment(assessment.comment || '');
         }
-    }, [currentQuestion,assessment.comment,assessment.questions]);
-    const handleNextClick = () => {
+    }, [currentQuestion, assessment.comment, assessment.questions]);
+    const handleNextClick = async () => {
         if (selectedOption !== null) {
-            // Update the selected option for the current question in assessment.questions
             const updatedQuestions = assessment.questions.map((question, index) => {
                 if (index === currentQuestion - 1) {
                     return {
@@ -37,15 +36,37 @@ function QuestionsLayout() {
                 }
                 return question;
             });
-
-            // Dispatch an action to update assessment.questions in Redux store
             dispatch(updateQuestions(updatedQuestions));
-
-            // Move to the next question or navigate to the report page if all questions are answered
             if (currentQuestion < assessment.questions.length) {
                 setCurrentQuestion(currentQuestion + 1);
                 setSelectedOption(null); // Reset selected option
             } else {
+                try {
+                    const email = assessment.user?.email;
+                    const answers = updatedQuestions?.map(question => question.selectedOption) || [];
+                    const response = await fetch('https://cxmaturity.vercel.app/submitAssessment', {
+                        method: 'PUT', // Change to 'PUT' if needed
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(
+                            {
+                                email: email,
+                                isAssessmentTaken: true,
+                                answers
+                            }
+                        )
+                    });
+                    const responseData = await response.json();
+                    if (!responseData?.success) {
+                        throw new Error('Network response was not ok');
+                    }
+                    else {
+                        console.log('Form submitted successfully:', responseData?.message);
+                    }
+                } catch (error) {
+                    console.error('Error submitting form:', error);
+                }
                 setCurrentQuestion(null)
                 dispatch(updateStatus(true))
                 navigate('/report');
@@ -55,13 +76,11 @@ function QuestionsLayout() {
             setShowError(true);
         }
     };
-    const handleGoBackClick = ()=>{
-        if (currentQuestion > 1 && currentQuestion <= assessment.questions.length)
-        {
+    const handleGoBackClick = () => {
+        if (currentQuestion > 1 && currentQuestion <= assessment.questions.length) {
             setCurrentQuestion(currentQuestion - 1);
         }
-        else if(currentQuestion === 1  )
-        {
+        else if (currentQuestion === 1) {
             setCurrentQuestion(0);
             navigate('/instructions')
         }
@@ -94,21 +113,22 @@ function QuestionsLayout() {
                     <small className="rating-label text-center"> { assessment.questions[currentQuestion-1]?.type === 'type1'? 'Neutral':'Sometimes'}</small>
                     <small className="rating-label text-center"> { assessment.questions[currentQuestion-1]?.type === 'type1'?'Agree': 'Often'}</small>
                     <small className="rating-label text-center "> { assessment.questions[currentQuestion-1]?.type === 'type1'?'Strongly Agree':'Always'}</small>
+                   
                 </div>
                 <hr className='my-4 shadow-sm' />
                 {(currentQuestion === assessment.questions.length) &&
                     <div className="comment-container">
                         <p>Additional comment (optional)</p>
                         <textarea className='w-100 p-1' placeholder='Enter text' value={comment} onChange={(e) => setComment(e.target.value)} />
-                            {  selectedOption && 
+                        {selectedOption &&
                             (
-                            <p className='my-3  fw-bold' >Thank you for your participation! Your responses will help us identify areas for improvement and enhance our customer experience initiatives across all of REI’s projects.</p>
+                                <p className='my-3  fw-bold' >Thank you for your participation! Your responses will help us identify areas for improvement and enhance our customer experience initiatives across all of REI’s projects.</p>
                             )}
                     </div>}
                 {showError && <p className="error-message text-danger">Please select an option.</p>}
                 <div className='d-flex justify-content-between '>
                     <button type='button' className="next-question-btn p-2 mt-4 w-25 s rounded-1 border-0 text-white" onClick={handleGoBackClick}>
-                       Previous
+                       Go Back
                     </button>
                     <button type='button' className="next-question-btn p-2 mt-4 w-25 s rounded-1 border-0 text-white" onClick={handleNextClick}>
                         {currentQuestion === assessment.questions.length ? "Submit" : "Continue"}

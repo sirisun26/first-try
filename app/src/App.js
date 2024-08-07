@@ -8,6 +8,8 @@ import Home from "./pages/Home";
 import Questions from "./pages/Questions";
 import Report from "./pages/Report";
 import Instructions from "./pages/Instructions";
+import RegistrationFormLayout from "./components/Layout/Form/RegistrationFormLayout";
+import ProtectedRoute from "./utils/protectedRoutes";
 function App() {
 
 
@@ -33,11 +35,12 @@ function App() {
     // </div>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path="/instructions" element={<Instructions/>} />
-        <Route path='/questions' element={<Questions />} />
-        <Route path='/report' element={<Report />} />
-      </Routes>
+          <Route path='/' element={<Home />} />
+          <Route path="/instructions" element={<Instructions />} />
+          <Route path='/questions' element={<ProtectedRoute element={<Questions />} />} />
+          <Route path='/report' element={<ProtectedRoute element={<Report />} />} />
+          <Route path='/register' element={<RegistrationFormLayout />} />
+        </Routes>
     </BrowserRouter>
   );
 }
